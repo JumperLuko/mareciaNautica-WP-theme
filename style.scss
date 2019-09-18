@@ -22,12 +22,7 @@ nav.menu{
     background-color: #e9f2f1;
     font-family: KGSorryNotSorryChub;
     font-size: 25px;
-    ul,li{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-    a,li{
+    >a{
         display: flex;
         justify-content:center;
         align-content: center;
@@ -43,40 +38,40 @@ nav.menu{
         font-family: KGSorryNotSorry;
         font-size:20px;
     }
-    .option1{
+    >.option1{
         grid-column-start: 3;
         grid-column-end: 5;
-    }.option2{
+    }>.option2{
         grid-column-start: 5;
         grid-column-end: 9;
-    }.option3{
+    }>.option3{
         grid-column-start: 9;
         grid-column-end: 11;
     }
 
-    .big-option1{
+    >.big-option1{
         grid-row-start: 2;
         grid-row-end: 3;
         grid-column-start: 2;
         grid-column-end: 4;
-    }.big-option2{
+    }>.big-option2{
         grid-row-start: 2;
         grid-row-end: 3;
         grid-column-start: 10;
         grid-column-end: 12;
-    }.big-option3{
+    }>.big-option3{
         grid-row-start: 3;
         grid-row-end: 4;
         grid-column-start: 2;
         grid-column-end: 4;
-    }.big-option4{
+    }>.big-option4{
         grid-row-start: 3;
         grid-row-end: 4;
         grid-column-start: 10;
         grid-column-end: 12;
     }
 
-    .logo{
+    >.logo{
         padding: 4%;
         grid-row-start: 2;
         grid-row-end: 4;
@@ -116,7 +111,6 @@ footer{
         color: #fff;
         padding: 20px 0;
         text-decoration: inherit;
-        &[class*="link"]{}
         &[class*="contact"]{
             text-align: end;
             font-size: 30px;

@@ -19,9 +19,6 @@
     </head>
 
     <body>
-        <?php
-              wp_nav_menu( array( 'container' => false,'items_wrap' => '<nav class="menu gcol--12">%3$s</nav>','theme_location' => 'header-menu' ) );
-        ?>
         <nav class="menu gcol--12">
             <a href="" class="option1">VAGAS DE EMPREGO</a>
             <a href="" class="option2">REDES SOCIAIS</a>
