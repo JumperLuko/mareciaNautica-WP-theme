@@ -1,0 +1,71 @@
+main {
+  margin-top: 200px;
+}
+
+main > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+main > a > img {
+  opacity: 0.5;
+  margin: 0 40px;
+}
+
+main > a.whatsapp {
+  font-size: 2.81rem;
+}
+
+main > a.whatsapp img {
+  position: absolute;
+  margin: -150px 0 0 -200px;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+main > a.telefone {
+  font-size: 2.10rem;
+  text-align: center;
+  padding-left: 145px;
+}
+
+main > a.email {
+  font-size: 2.10rem;
+  text-align: center;
+  padding-right: 145px;
+}
+
+main a.mapa {
+  font-size: 1.50rem;
+}
+
+main a.mapa figure {
+  width: 100%;
+}
+
+main .divisor {
+  width: 100%;
+  height: 2px;
+  margin: 100px 0;
+  padding: 0 20%;
+}
+
+main .divisor > div {
+  background-color: #333;
+  width: 100%;
+  height: 2px;
+}

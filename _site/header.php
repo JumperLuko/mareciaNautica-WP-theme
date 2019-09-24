@@ -14,7 +14,6 @@
         <?php wp_head(); ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link rel="icon" type="image/png" href="<?php echo get_parent_theme_file_uri( 'img/icon.png' );?>">
         <link rel="stylesheet" type="text/css" href="<?php echo get_parent_theme_file_uri( 'style.min.css' );?>">
         <link rel="stylesheet" type="text/css" href="<?php echo get_parent_theme_file_uri( 'css/responsive_flex-grid.min.css' );?>">
     </head>
@@ -28,8 +27,8 @@
             <a href="" class="big-option1">QUALIDADE</a>
             <a href="" class="big-option2">REPRESENTAÇÃO</a>
             <a href="" class="big-option3">PRODUTOS</a>
-            <a href="http://localhost/luko/wordpress/index.php/contato/" class="big-option4">CONTATO</a>  
+            <a href="" class="big-option4">CONTATO</a>  
             
-            <a href="http://localhost/luko/wordpress/" class="logo"><img src="<?php echo get_parent_theme_file_uri( 'img/marecia-nautica.svg' );?>"/></a>
+            <a href="/" class="logo"><img src="<?php echo get_parent_theme_file_uri( 'img/marecia-nautica.svg' );?>"/></a>
         </nav>
         <div class="menu-border"></div>

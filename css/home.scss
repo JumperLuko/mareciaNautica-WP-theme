@@ -1,0 +1,19 @@
+/* INSTAGRAM FEED */
+.wdi_feed_container{border: none !important;}
+.wdi_feed_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 800px) {
+#wdi_feed_0 .wdi_feed_item {
+    width: 25% !important; /*thumbnail_size*/
+    margin: 0 2%;
+}
+}
+
+.wdi_photo_wrap_inner{
+    border: none !important;
+}
+
+.wdi_load_more,.wdi_feed_info{display: none;}

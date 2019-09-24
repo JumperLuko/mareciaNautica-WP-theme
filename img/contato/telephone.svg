@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg120"
+   version="1.1"
+   viewBox="0 0 180 180"
+   height="180"
+   width="180">
+  <metadata
+     id="metadata124">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>jobs-telephone</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs35">
+    <style
+       id="style2">.cls-1{fill:url(#New_Gradient_Swatch_21);}.cls-2{fill:url(#linear-gradient);}.cls-3{fill:url(#linear-gradient-2);}.cls-4{opacity:0.15;}.cls-5{fill:url(#New_Gradient_Swatch_10);}.cls-6{fill:#0fa9d8;}.cls-7{fill:#bad0e2;}.cls-8{fill:#281805;}.cls-9{fill:#04447d;}.cls-10{fill:url(#linear-gradient-3);}.cls-11{fill:url(#New_Gradient_Swatch_10-2);}.cls-12{fill:url(#linear-gradient-4);}.cls-13{fill:#8c6c13;}.cls-14{fill:url(#New_Gradient_Swatch_10-3);}.cls-15{fill:url(#linear-gradient-5);}.cls-16{fill:url(#New_Gradient_Swatch_10-4);}.cls-17{fill:url(#linear-gradient-6);}.cls-18{opacity:0.35;}</style>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="89.673302"
+       x2="248.2036"
+       y1="89.673302"
+       x1="68.856697"
+       id="New_Gradient_Swatch_21">
+      <stop
+         id="stop4"
+         stop-color="#4db1ff"
+         offset="0" />
+      <stop
+         id="stop6"
+         stop-color="#1f8fe6"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="27.701401"
+       x2="139.86681"
+       y1="27.701401"
+       x1="84.463997"
+       id="linear-gradient">
+      <stop
+         id="stop9"
+         stop-color="#1171bb"
+         offset="0" />
+      <stop
+         id="stop11"
+         stop-color="#4b80da"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linear-gradient"
+       y2="136.03999"
+       x2="248.2018"
+       y1="136.03999"
+       x1="192.8026"
+       id="linear-gradient-2" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="133.825"
+       x2="60.3228"
+       y1="143.5766"
+       x1="66.271301"
+       id="New_Gradient_Swatch_10">
+      <stop
+         id="stop15"
+         stop-color="#fdddc3"
+         offset="0" />
+      <stop
+         id="stop17"
+         stop-color="#fdc89d"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="140.756"
+       x2="68.4123"
+       y1="140.756"
+       x1="47.342098"
+       id="linear-gradient-3">
+      <stop
+         id="stop20"
+         stop-color="#4db1ff"
+         offset="0" />
+      <stop
+         id="stop22"
+         stop-color="#1171bb"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#New_Gradient_Swatch_10"
+       gradientTransform="matrix(0.9986,0.0522,-0.0522,0.9986,-1938.5869,51.8833)"
+       y2="-36.3218"
+       x2="2006.2548"
+       y1="-46.302399"
+       x1="2015.854"
+       id="New_Gradient_Swatch_10-2" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.9981,-0.061,-0.061,0.9981,-3567.2577,-106.054)"
+       y2="2.3238001"
+       x2="-3631.1084"
+       y1="4.4215002"
+       x1="-3635.3391"
+       id="linear-gradient-4">
+      <stop
+         id="stop26"
+         stop-color="#f59d58"
+         offset="0" />
+      <stop
+         id="stop28"
+         stop-color="#f5b17d"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#New_Gradient_Swatch_10"
+       gradientTransform="matrix(0.9969,-0.0791,0.0791,0.9969,-1697.5031,-111.7678)"
+       y2="362.95309"
+       x2="1725.9413"
+       y1="362.29669"
+       x1="1727.8348"
+       id="New_Gradient_Swatch_10-3" />
+    <linearGradient
+       xlink:href="#linear-gradient-4"
+       gradientTransform="matrix(0.9969,-0.0791,0.0791,0.9969,-1688.9406,-111.9553)"
+       y2="362.6087"
+       x2="1727.2592"
+       y1="362.6087"
+       x1="1726.4821"
+       id="linear-gradient-5" />
+    <linearGradient
+       xlink:href="#New_Gradient_Swatch_10"
+       gradientTransform="rotate(70.2749,-4615.6146,-1045.4476)"
+       y2="-5007.749"
+       x2="-1940.0516"
+       y1="-4995.8638"
+       x1="-1932.8018"
+       id="New_Gradient_Swatch_10-4" />
+    <linearGradient
+       gradientTransform="translate(-31.625,3.375)"
+       xlink:href="#linear-gradient-3"
+       y2="129.62399"
+       x2="57.3083"
+       y1="129.62399"
+       x1="41.883301"
+       id="linear-gradient-6" />
+    <filter
+       height="2.5525517"
+       y="-0.77627587"
+       width="1.0888047"
+       x="-0.044402368"
+       id="filter1087"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur1089"
+         stdDeviation="3.3163308" />
+    </filter>
+    <linearGradient
+       y2="27.701401"
+       x2="139.86681"
+       y1="27.701401"
+       x1="84.463997"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient1133"
+       xlink:href="#linear-gradient" />
+  </defs>
+  <title
+     id="title37">jobs-telephone</title>
+  <g
+     transform="translate(0,-34.952805)"
+     data-name="Layer 2"
+     id="Layer_2">
+    <g
+       data-name="Layer 1"
+       id="Layer_1-2">
+      <g
+         transform="translate(-68.530228,35.279197)"
+         id="Telephone">
+        <path
+           style="fill:url(#New_Gradient_Swatch_21)"
+           id="path39"
+           d="m 114.2156,69.7493 c 7.3145,14.1425 12.9,23.7086 26.7167,37.5256 13.8167,13.817 23.38,19.3987 37.5292,26.7114 l 23.8016,-23.8017 a 6.2983,6.2983 0 0 1 8.9062,0 l 35.19,35.1883 a 6.3,6.3 0 0 1 0,8.908 l -9.4606,9.4587 C 209.388,191.2521 155.8777,182.3514 110.8658,137.3413 65.8505,92.3258 56.9515,38.8173 84.464,11.3048 l 9.4588,-9.46 a 6.298,6.298 0 0 1 8.9061,0 l 35.1937,35.1936 a 6.2983,6.2983 0 0 1 0,8.9062 z"
+           class="cls-1" />
+        <path
+           style="fill:url(#linearGradient1133)"
+           id="path41"
+           d="m 102.8289,1.8443 35.1937,35.1936 a 6.2983,6.2983 0 0 1 0,8.9062 l -9.4606,9.4587 -44.098,-44.098 9.4588,-9.46 a 6.298,6.298 0 0 1 8.9061,-5e-4 z"
+           class="cls-2" />
+        <path
+           style="fill:url(#linear-gradient-2)"
+           id="path43"
+           d="m 211.1693,110.1846 35.1883,35.1883 a 6.3,6.3 0 0 1 0,8.908 l -9.4588,9.4587 -44.0962,-44.0962 9.46,-9.4588 a 6.2983,6.2983 0 0 1 8.9067,0 z"
+           class="cls-3" />
+      </g>
+    </g>
+  </g>
+</svg>

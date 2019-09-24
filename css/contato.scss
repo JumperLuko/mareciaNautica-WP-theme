@@ -1,0 +1,55 @@
+main{
+    margin-top: 200px;
+    >a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-decoration: inherit;
+    color: inherit;
+        >img{
+            opacity: 0.5;
+            margin: 0 40px;
+        }
+    }
+
+    >a.whatsapp{
+        font-size: 2.81rem;
+        img{
+            position: absolute;
+            margin: -150px 0 0 -200px;
+            z-index: -1;
+            opacity: 0.4;
+        }
+    }
+    >a.telefone{
+        font-size: 2.10rem;
+        text-align: center;
+        padding-left: 145px;
+    }
+    >a.email{
+        font-size: 2.10rem;
+        text-align: center;
+        padding-right: 145px;
+    }
+    a.mapa{
+        font-size: 1.50rem;
+        figure{width: 100%;}
+    }
+
+
+    .divisor{
+        width: 100%;
+        height: 2px;
+        margin: 100px 0;
+        padding: 0 20%;
+        >div{
+            background-color: #333;
+            width: 100%;
+            height: 2px;
+        }
+    }
+}
