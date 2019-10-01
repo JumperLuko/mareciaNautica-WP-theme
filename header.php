@@ -27,7 +27,7 @@
 
             <a href="" class="big-option1">QUALIDADE</a>
             <a href="" class="big-option2">REPRESENTAÇÃO</a>
-            <a href="" class="big-option3">PRODUTOS</a>
+            <a href="http://localhost/luko/wordpress/index.php/produtos/" class="big-option3">PRODUTOS</a>
             <a href="http://localhost/luko/wordpress/index.php/contato/" class="big-option4">CONTATO</a>  
             
             <a href="http://localhost/luko/wordpress/" class="logo"><img src="<?php echo get_parent_theme_file_uri( 'img/marecia-nautica.svg' );?>"/></a>

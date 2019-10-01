@@ -1,6 +1,6 @@
 @font-face {
   font-family: Amblas;
-  src: url("./fonts/Amblas.ttf");
+  src: url("./fonts/Amblas-ptbr.ttf");
 }
 
 @font-face {
@@ -130,7 +130,6 @@ nav.menu > .logo > img {
 }
 
 .menu-border {
-  position: absolute;
   width: 100%;
   height: 81px;
   z-index: 5;

@@ -1,6 +1,6 @@
 @font-face {
     font-family: Amblas;
-    src: url('./fonts/Amblas.ttf');
+    src: url('./fonts/Amblas-ptbr.ttf');
 }@font-face {
     font-family: KGSorryNotSorry;
     src: url('./fonts/KGSorryNotSorry.ttf');
@@ -86,7 +86,7 @@ nav.menu{
     }
 }
 .menu-border{
-    position: absolute;
+    // position: absolute;
     width: 100%;
     height: 81px;
     z-index: 5;

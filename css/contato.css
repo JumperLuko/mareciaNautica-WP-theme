@@ -60,7 +60,7 @@ main a.mapa figure {
 main .divisor {
   width: 100%;
   height: 2px;
-  margin: 100px 0;
+  margin: 100px 0 0 0;
   padding: 0 20%;
 }
 
@@ -68,4 +68,46 @@ main .divisor > div {
   background-color: #333;
   width: 100%;
   height: 2px;
+}
+
+form {
+  padding: 0 15%;
+  font-size: 1.56rem;
+  font-family: Amblas;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+  border: 4px #a1a6ab solid;
+}
+
+form input[type="text"], form input[type="email"] {
+  height: 40px;
+}
+
+form .Assunto > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form .Assunto > span > span {
+  padding: 5px 0;
+}
+
+form textarea {
+  width: 800px;
+  max-width: 100%;
+  height: 300px;
+}
+
+form input[type="submit"] {
+  background: #e0dfe6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1.3rem;
 }
