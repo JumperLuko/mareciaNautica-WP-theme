@@ -1,0 +1,14 @@
+<a href="https://api.whatsapp.com/send?phone=5547984790989&amp;text=Ol%C3%A1,%20Estava%20visitando%20o%20site%20marecianautica.com.br.%20Est%C3%A1%20dispon%C3%ADvel?" class="whatsapp" target="_BLANK" rel="noopener noreferrer"><figure style="margin:0;"><img src="http://localhost/luko/wordpress/wp-content/themes/MareCiaNautica/img/contato/WhatsApp.svg" width="300px" height="300px" alt="whatsapp icone"></figure><span>Whatsapp: +55 47 98479-0989</span></a>
+
+<a class="telefone">Telefone: (47) 3026-5141 <img width="65" height="65" src="http://localhost/luko/wordpress/wp-content/themes/MareCiaNautica/img/contato/telephone.svg" alt="Telefone icone"></a>
+
+<a class="email" href="mailto:comercial.marecia@gmail.com" target="BLANK" rel="noopener noreferrer"><img width="65" height="65" src="http://localhost/luko/wordpress/wp-content/themes/MareCiaNautica/img/contato/email.svg" alt="Email icone"> Email: comercial.marecia@gmail.com</a>
+
+<a class="mapa" href="https://goo.gl/maps/rsBEDvTiamzwTsT97" target="_BLANK" rel="noopener noreferrer">
+<figure><img src="http://localhost/luko/wordpress/wp-content/themes/MareCiaNautica/img/contato/Map_marker.svg" style="height: 50px;" alt="Mapa icone"></figure>
+<span>Rua Prefeito Helmuth Fallgatter, 1208<br> 89206-100 – Boa Vista – Joinville/SC<span>
+</a>
+
+<div class="divisor"><div></div></div>
+
+[contact-form-7 id="88" title="Contact form 1"]

@@ -19,9 +19,13 @@
 }
 
 body {
-  font-family: Amblas;
+  font-family: Amblas, Calibri;
   width: 100%;
   overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
 }
 
 nav.menu {
@@ -130,6 +134,7 @@ nav.menu > .logo > img {
 }
 
 .menu-border {
+  position: absolute;
   width: 100%;
   height: 81px;
   z-index: 5;
@@ -157,6 +162,65 @@ nav.menu > .logo > img {
   }
   100% {
     background-position-x: 20%;
+  }
+}
+
+.title-page {
+  color: #181818;
+  width: 100%;
+  margin: 120px 0 100px 0;
+  text-align: center;
+  font-size: 3.75rem;
+  letter-spacing: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title-page > div {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 100%;
+  border-right: 10px solid #323232;
+  border-left: 10px solid #323232;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  -webkit-animation: title-open 0.6s;
+          animation: title-open 0.6s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.title-page > span {
+  margin: 0 50px;
+}
+
+@-webkit-keyframes title-open {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 600px;
+  }
+}
+
+@keyframes title-open {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 600px;
   }
 }
 
@@ -211,6 +275,29 @@ footer > a.andress {
 
 footer > a.contact3, footer > a.contact4 {
   font-size: 1.56rem;
+}
+
+@media only screen and (max-width: 1199px) {
+  footer > a.link1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+  }
+  footer > a.link2 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+  }
+  footer > a.link3 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3 / 4;
+  }
+  footer > a.link4 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4 / 5;
+  }
 }
 
 /* FIX FOR PLUGINS */

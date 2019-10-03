@@ -1,1 +1,21 @@
-// .prod-cat-header-div{display: none;}
+.produtos{
+    @media only screen and (min-width: 768px) {grid-column: 4/ 13;}
+    .produto{
+        text-decoration: none;
+        color: #1f1f1f;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px 0;
+        h2{
+            width: 100%;
+            text-align: center;
+        }
+        img{
+            object-fit: scale-down;
+            width: auto;
+            height: auto;
+            max-height: 300px;
+        }
+    }
+}

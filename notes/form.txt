@@ -1,0 +1,34 @@
+contact-form-7
+
+Mar&Cia Náutica <comercial.marecia@gmail.com>
+
+Mar&Cia Náutica "[Assuntos]"
+
+Reply-To: [your-email]
+
+From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+- - - -
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Mar&amp;Cia Náutica (http://localhost/luko/wordpress)
+
+-------------
+
+<p class="centerText h1">Mensagem via Formulário</p>
+<label> Nome [text* your-name] </label>
+
+<label> Email [email* your-email] </label>
+
+ Assunto
+[radio Assunto "Orçamento" "Compra" "Pagamento" "Dúvida" "Reclamação" "Outros assuntos"]
+<label> [text* Assuntos] </label>
+
+<label> Mensagem
+    [textarea your-message] </label>
+
+[submit "Enviar"]
