@@ -20,7 +20,7 @@
     </head>
 
     <body>
-        <nav class="menu col-12 gcol--12">
+        <nav class="menu col-12 gcol-m-12">
             <a href="" class="option1">VAGAS DE EMPREGO</a>
             <a href="" class="option2">REDES SOCIAIS</a>
             <a href="" class="option3">QUEM SOMOS</a>

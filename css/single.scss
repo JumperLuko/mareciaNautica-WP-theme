@@ -1,0 +1,24 @@
+.title-post{
+    color: #1f1f1f;
+    margin: 130px 0 30px 25%;
+}
+main{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    .content{
+        display: flex;
+        color: #414141;
+        >[class*="robogallery-gallery"],> .text{
+            width: 44.44% !important;
+            margin: 0 !important; 
+        }
+        > .text{
+            > .descricao{
+                text-align: center;
+            }
+            > .itens{
+                grid-template-columns: 30% 70%;
+            }
+        }
+    }
+}
