@@ -1,3 +1,9 @@
+@media only screen and (max-width: 959px) {
+  .metaslider {
+    margin-top: 60px;
+  }
+}
+
 /* INSTAGRAM FEED */
 .wdi_feed_container {
   border: none !important;

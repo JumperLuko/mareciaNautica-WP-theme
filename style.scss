@@ -121,7 +121,8 @@ nav.menu{
     width: 100%;
     margin:120px 0 100px 0;
     text-align: center;
-    font-size: 3.75rem;
+    font-size: 2.75rem;
+    @media only screen and (min-width: 600px) {font-size: 3.75rem;}
     letter-spacing: 5px;
     display: flex;
     justify-content: center;
@@ -152,11 +153,12 @@ footer{
     color: #fff;
     display: grid;
     width: 100%;
-    padding: 100px 16.66% 30px 16.66%;
+    padding: 100px 5% 30px 5%;
+    @media only screen and (min-width: 600px) {padding: 100px 16.66% 30px 16.66%;}
     // margin-top: 500px;
     font-family: Philosopher-Bold;
     font-size: 2.5rem;
-    word-break: break-all;
+    word-break: break-word;
     >a {
         color: #fff;
         padding: 20px 0;

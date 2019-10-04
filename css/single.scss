@@ -4,20 +4,38 @@
 }
 main{
     display: grid;
-    grid-template-columns: 25% 75%;
+    @media only screen and (min-width: 768px) {grid-template-columns: 25% 75%;}
     .content{
         display: flex;
+        flex-wrap: wrap;
         color: #414141;
-        >[class*="robogallery-gallery"],> .text{
-            width: 44.44% !important;
+        font-size: 0.93rem;
+        >[class*="robogallery-gallery"]{
+            @media only screen and (min-width: 960px) {width: 44.44% !important;}
             margin: 0 !important; 
         }
         > .text{
-            > .descricao{
-                text-align: center;
+            width: 44.44%;
+            @media only screen and (max-width: 1199px) {
+                width: 55.55%;
+                padding: 0 20px 0 0;
             }
+            @media only screen and (max-width: 959px) {
+                width: 100%;
+                padding: 0 2%
+            }
+            > .descricao{text-align: center;}
             > .itens{
+                display: grid;
                 grid-template-columns: 30% 70%;
+                grid-row-gap: 15px;
+                grid-column-gap: 10px;
+                >div,>span{
+                    display: flex;
+                    align-items: center;
+                }
+                >div{font-weight: bold;}
+                >span{font-size: 0.9rem;}
             }
         }
     }

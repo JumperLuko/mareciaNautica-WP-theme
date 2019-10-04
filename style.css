@@ -190,7 +190,7 @@ nav.menu > .logo > img {
   width: 100%;
   margin: 120px 0 100px 0;
   text-align: center;
-  font-size: 3.75rem;
+  font-size: 2.75rem;
   letter-spacing: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -198,6 +198,12 @@ nav.menu > .logo > img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .title-page {
+    font-size: 3.75rem;
+  }
 }
 
 .title-page > div {
@@ -250,10 +256,16 @@ footer {
   display: -ms-grid;
   display: grid;
   width: 100%;
-  padding: 100px 16.66% 30px 16.66%;
+  padding: 100px 5% 30px 5%;
   font-family: Philosopher-Bold;
   font-size: 2.5rem;
-  word-break: break-all;
+  word-break: break-word;
+}
+
+@media only screen and (min-width: 600px) {
+  footer {
+    padding: 100px 16.66% 30px 16.66%;
+  }
 }
 
 footer > a {
