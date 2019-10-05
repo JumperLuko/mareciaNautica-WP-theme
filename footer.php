@@ -1,6 +1,6 @@
     <?php wp_footer(); ?>
     <footer class="gcol-b-2">
-        <a class="link1" href="" >Página Inicial</a>
+        <a class="link1" href="/" >Página Inicial</a>
         <a class="contact1" href="" >Redes Sociais</a>
 
         <a class="link2" href="" >Como Escolher</a>

@@ -1,3 +1,13 @@
+@charset "UTF-8";
+/*
+Theme Name: Mar&Cia Náutica
+Author: JumperLuko
+Author URI: http://jumperluko.com
+Description: site make to www.marecianautica.com.br
+Version: 1.0
+License: No licence, intellectual property does not exist.
+Text Domain: MareCiaNautica
+*/
 @font-face {
   font-family: Amblas;
   src: url("./fonts/Amblas-ptbr.ttf");
