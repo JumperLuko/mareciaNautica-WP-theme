@@ -21,16 +21,41 @@ main > a {
   color: inherit;
 }
 
-main > a > img {
+main > a > figure {
   opacity: 0.5;
-  margin: 0 40px;
+  margin: 0;
+}
+
+@media only screen and (min-width: 960px) {
+  main > a > figure {
+    margin: 0 40px;
+  }
 }
 
 main > a.whatsapp {
   font-size: 2.81rem;
 }
 
+main > a.whatsapp > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 959px) {
+  main > a.whatsapp > div > div {
+    width: 100%;
+  }
+}
+
 main > a.whatsapp img {
+  width: 300px;
+  height: 300px;
   position: absolute;
   margin: -150px 0 0 -200px;
   z-index: -1;
@@ -40,13 +65,45 @@ main > a.whatsapp img {
 main > a.telefone {
   font-size: 2.10rem;
   text-align: center;
-  padding-left: 145px;
+}
+
+@media only screen and (max-width: 959px) {
+  main > a.telefone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  main > a.telefone {
+    padding-left: 145px;
+  }
+}
+
+main > a.telefone > figure > img {
+  width: 65px;
+  height: 65px;
 }
 
 main > a.email {
   font-size: 2.10rem;
   text-align: center;
-  padding-right: 145px;
+}
+
+@media only screen and (min-width: 960px) {
+  main > a.email {
+    padding-right: 145px;
+  }
+}
+
+main > a.email > figure > img {
+  width: 65px;
+  height: 65px;
 }
 
 main a.mapa {
@@ -57,10 +114,20 @@ main a.mapa figure {
   width: 100%;
 }
 
+main a.mapa figure > img {
+  height: 50px;
+}
+
+@media only screen and (max-width: 959px) {
+  main > a > figure {
+    width: 100%;
+  }
+}
+
 main .divisor {
   width: 100%;
   height: 2px;
-  margin: 100px 0 0 0;
+  margin: 100px 0 100px 0;
   padding: 0 20%;
 }
 
@@ -74,6 +141,14 @@ form {
   padding: 0 15%;
   font-size: 1.56rem;
   font-family: Amblas;
+}
+
+form > p {
+  margin: 50px 0;
+}
+
+form > p.h1 {
+  margin-bottom: 70px;
 }
 
 form input[type="text"], form input[type="email"], form textarea {

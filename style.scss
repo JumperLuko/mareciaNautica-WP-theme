@@ -27,7 +27,12 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
+
 img{max-width: 100%;}
+a:link{color: #358188;}
+a:active{color: #2c4f76;}
+a:visited{color: #221d63;}
+
 nav.menu{
     display: grid;
     @media only screen and (min-width: 960px) {
@@ -197,6 +202,11 @@ footer{
             &.link3{grid-row: 3 / 4;}
             &.link4{grid-row: 4 / 5;}
         }
+    }
+    a:visited, a:link, a:active{
+        color: #fff;
+        padding: 20px 0;
+        text-decoration: inherit;
     }
 }
 

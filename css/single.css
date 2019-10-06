@@ -37,12 +37,12 @@ main .content > [class*="robogallery-gallery"] {
 
 main .content > .text {
   width: 44.44%;
+  padding: 0 30px;
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1759px) {
   main .content > .text {
     width: 55.55%;
-    padding: 0 20px 0 0;
   }
 }
 
@@ -81,4 +81,10 @@ main .content > .text > .itens > div {
 
 main .content > .text > .itens > span {
   font-size: 0.9rem;
+}
+
+main .content > .text > .itens > .ficha {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.1rem;
 }

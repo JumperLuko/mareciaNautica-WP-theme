@@ -14,7 +14,21 @@
         <?php wp_head(); ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link rel="icon" type="image/png" href="<?php echo get_parent_theme_file_uri( 'img/icon.png' );?>">
+        <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_parent_theme_file_uri( 'img/icon/apple-touch-icon.png' );?>">
+        <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_parent_theme_file_uri( 'img/icon/favicon-32x32.png' );?>">
+        <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_parent_theme_file_uri( 'img/icon/favicon-16x16.png' );?>">
+        <link rel="manifest" href="<?php echo get_parent_theme_file_uri( 'manifest.json' );?>">
+        <link rel="mask-icon" href="<?php echo get_parent_theme_file_uri( 'img/icon/safari-pinned-tab.svg' );?>" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#55c5d0">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="icon" type="image/png" href="<?php echo get_parent_theme_file_uri( 'img/icon/icon.png' );?>">
+        <script>
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('<?php echo get_parent_theme_file_uri( '/sw.js' );?>')
+					// .then(function() { console.log("Service Worker Registered"); });
+			}
+		</script>
+
         <link rel="stylesheet" type="text/css" href="<?php echo get_parent_theme_file_uri( 'style.min.css' );?>">
         <link rel="stylesheet" type="text/css" href="<?php echo get_parent_theme_file_uri( 'css/responsive_flex-grid.min.css' );?>">
     </head>

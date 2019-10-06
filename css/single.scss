@@ -16,10 +16,8 @@ main{
         }
         > .text{
             width: 44.44%;
-            @media only screen and (max-width: 1199px) {
-                width: 55.55%;
-                padding: 0 20px 0 0;
-            }
+            padding: 0 30px;
+            @media only screen and (max-width: 1759px) {width: 55.55%;}
             @media only screen and (max-width: 959px) {
                 width: 100%;
                 padding: 0 2%
@@ -36,6 +34,11 @@ main{
                 }
                 >div{font-weight: bold;}
                 >span{font-size: 0.9rem;}
+                >.ficha{
+                    text-align: center;
+                    margin-top: 2rem;
+                    font-size: 1.1rem;
+                }
             }
         }
     }
