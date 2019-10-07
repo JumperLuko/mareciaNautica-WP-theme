@@ -42,12 +42,12 @@ a:link {
   color: #358188;
 }
 
-a:active {
-  color: #2c4f76;
-}
-
 a:visited {
   color: #221d63;
+}
+
+a:active {
+  color: #2c4f76;
 }
 
 nav.menu {

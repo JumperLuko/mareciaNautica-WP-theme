@@ -13,6 +13,21 @@
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
         <?php wp_head(); ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="language" content="pt-br">
+		<meta property="og:locale" content="pt_BR">
+
+        <meta name="description" content="Empresa especializada na fabricação de coletes salva-vidas. Possuímos produtos de alta qualidade.">
+        <meta name="og:description" content="Empresa especializada na fabricação de coletes salva-vidas. Possuímos produtos de alta qualidade.">
+		<meta name="designer" content="Jumper_Luko, jumper.luko@gmail.com">
+        <meta name="generator" content="VSCode">
+        <meta property="og:image" content="<?php echo get_parent_theme_file_uri( 'img/og-image.png' );?>">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="800"> /** PIXELS **/
+		<meta property="og:image:height" content="600"> /** PIXELS **/
+		
+		<meta name="robots" content="index, follow">
+		<meta name="keywords" content="Mar&Cia Náutica, coletes, salva vidas, camisa flutuadora">
+		<meta name="rating" content="general">
         
         <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_parent_theme_file_uri( 'img/icon/apple-touch-icon.png' );?>">
         <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_parent_theme_file_uri( 'img/icon/favicon-32x32.png' );?>">
@@ -20,8 +35,7 @@
         <link rel="manifest" href="<?php echo get_parent_theme_file_uri( 'manifest.json' );?>">
         <link rel="mask-icon" href="<?php echo get_parent_theme_file_uri( 'img/icon/safari-pinned-tab.svg' );?>" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#55c5d0">
-        <meta name="theme-color" content="#ffffff">
-        <link rel="icon" type="image/png" href="<?php echo get_parent_theme_file_uri( 'img/icon/icon.png' );?>">
+        <meta name="theme-color" content="#e9f2f1">
         <script>
 			if ('serviceWorker' in navigator) {
 				navigator.serviceWorker.register('<?php echo get_parent_theme_file_uri( '/sw.js' );?>')
