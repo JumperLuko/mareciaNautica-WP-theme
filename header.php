@@ -22,8 +22,8 @@
         <meta name="generator" content="VSCode">
         <meta property="og:image" content="<?php echo get_parent_theme_file_uri( 'img/og-image.png' );?>">
 		<meta property="og:image:type" content="image/png">
-		<meta property="og:image:width" content="800"> /** PIXELS **/
-		<meta property="og:image:height" content="600"> /** PIXELS **/
+		<meta property="og:image:width" content="800">
+		<meta property="og:image:height" content="600">
 		
 		<meta name="robots" content="index, follow">
 		<meta name="keywords" content="Mar&Cia Náutica, coletes, salva vidas, camisa flutuadora">
@@ -49,12 +49,12 @@
 
     <body>
         <nav class="menu col-12 gcol-m-12">
-            <a href="" class="option1">VAGAS DE EMPREGO</a>
-            <a href="" class="option2">REDES SOCIAIS</a>
-            <a href="" class="option3">QUEM SOMOS</a>
+            <a href="/vagas-emprego/" class="option1">VAGAS DE EMPREGO</a>
+            <a href="/redes-sociais/" class="option2">REDES SOCIAIS</a>
+            <a href="/quem-somos/" class="option3">QUEM SOMOS</a>
 
-            <a href="" class="big-option1">QUALIDADE</a>
-            <a href="" class="big-option2">REPRESENTAÇÃO</a>
+            <a href="/qualidade/" class="big-option1">QUALIDADE</a>
+            <a href="/representacao/" class="big-option2">REPRESENTAÇÃO</a>
             <a href="/produtos/" class="big-option3">PRODUTOS</a>
             <a href="/contato/" class="big-option4">CONTATO</a>  
             
