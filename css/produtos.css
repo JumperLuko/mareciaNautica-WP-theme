@@ -1,3 +1,36 @@
+.produtos-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #3e3e3e;
+}
+
+@media only screen and (min-width: 768px) {
+  .produtos-tags {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+  }
+}
+
+.produtos-tags > div > a > h2 {
+  font-size: 2rem;
+}
+
+.produtos-tags a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.produtos-tags li {
+  display: inherit;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
 @media only screen and (min-width: 768px) {
   .produtos {
     -ms-grid-column: 4;

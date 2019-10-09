@@ -212,7 +212,6 @@ nav.menu > .logo > img {
   width: 100%;
   margin: 120px 0 100px 0;
   text-align: center;
-  font-size: 2.75rem;
   letter-spacing: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -250,8 +249,9 @@ nav.menu > .logo > img {
           animation-timing-function: ease-in-out;
 }
 
-.title-page > span {
-  margin: 0 50px;
+.title-page > div > h1 {
+  font-size: 3.75rem;
+  margin: 0;
 }
 
 @-webkit-keyframes title-open {

@@ -136,7 +136,7 @@ nav.menu{
     width: 100%;
     margin:120px 0 100px 0;
     text-align: center;
-    font-size: 2.75rem;
+    
     @media only screen and (min-width: 600px) {font-size: 3.75rem;}
     letter-spacing: 5px;
     display: flex;
@@ -153,9 +153,10 @@ nav.menu{
         animation: title-open 0.6s;
         animation-fill-mode:both;
         animation-timing-function: ease-in-out;
-    }
-    >span{
-        margin: 0 50px;
+        >h1{
+            font-size: 3.75rem;
+            margin: 0;
+        }
     }
 }
 @keyframes title-open {

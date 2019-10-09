@@ -1,3 +1,19 @@
+.produtos-tags{
+    @media only screen and (min-width: 768px) {grid-column: 1/4;}
+    display: flex;
+    justify-content: center;
+    color: #3e3e3e;
+    >div>a>h2{font-size: 2rem}
+    a{
+        text-decoration: inherit;
+        color: inherit;
+    }
+    li{
+        display: inherit;
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+}
 .produtos{
     @media only screen and (min-width: 768px) {grid-column: 4/ 13;}
     .produto{

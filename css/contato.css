@@ -1,8 +1,8 @@
-main {
-  padding-top: 100px;
+article .title-page {
+  margin: 120px 0 200px 0;
 }
 
-main > a {
+article > a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,22 +21,22 @@ main > a {
   color: inherit;
 }
 
-main > a > figure {
+article > a > figure {
   opacity: 0.5;
   margin: 0;
 }
 
 @media only screen and (min-width: 960px) {
-  main > a > figure {
+  article > a > figure {
     margin: 0 40px;
   }
 }
 
-main > a.whatsapp {
+article > a.whatsapp {
   font-size: 2.81rem;
 }
 
-main > a.whatsapp > div {
+article > a.whatsapp > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,12 +48,12 @@ main > a.whatsapp > div {
 }
 
 @media only screen and (max-width: 959px) {
-  main > a.whatsapp > div > div {
+  article > a.whatsapp > div > div {
     width: 100%;
   }
 }
 
-main > a.whatsapp img {
+article > a.whatsapp img {
   width: 300px;
   height: 300px;
   position: absolute;
@@ -62,13 +62,13 @@ main > a.whatsapp img {
   opacity: 0.4;
 }
 
-main > a.telefone {
+article > a.telefone {
   font-size: 2.10rem;
   text-align: center;
 }
 
 @media only screen and (max-width: 959px) {
-  main > a.telefone {
+  article > a.telefone {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -80,62 +80,62 @@ main > a.telefone {
 }
 
 @media only screen and (min-width: 960px) {
-  main > a.telefone {
+  article > a.telefone {
     padding-left: 145px;
   }
 }
 
-main > a.telefone > figure > img {
+article > a.telefone > figure > img {
   width: 65px;
   height: 65px;
 }
 
-main > a.email {
+article > a.email {
   font-size: 2.10rem;
   text-align: center;
 }
 
 @media only screen and (min-width: 960px) {
-  main > a.email {
+  article > a.email {
     padding-right: 145px;
   }
 }
 
-main > a.email > figure > img {
+article > a.email > figure > img {
   width: 65px;
   height: 65px;
 }
 
-main a.mapa {
+article a.mapa {
   font-size: 1.50rem;
 }
 
-main a.mapa figure {
+article a.mapa figure {
   width: 100%;
 }
 
-main a.mapa figure > img {
+article a.mapa figure > img {
   height: 50px;
 }
 
 @media only screen and (max-width: 959px) {
-  main > a > figure {
+  article > a > figure {
     width: 100%;
   }
 }
 
-main a:link, main a:visited {
+article a:link, article a:visited {
   color: #000;
 }
 
-main .divisor {
+article .divisor {
   width: 100%;
   height: 2px;
   margin: 100px 0 100px 0;
   padding: 0 20%;
 }
 
-main .divisor > div {
+article .divisor > div {
   background-color: #333;
   width: 100%;
   height: 2px;
