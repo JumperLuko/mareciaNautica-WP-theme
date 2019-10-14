@@ -12,6 +12,9 @@ Text Domain: MareCiaNautica
     font-family: Amblas;
     src: url('./fonts/Amblas-ptbr.ttf');
 }@font-face {
+    font-family: Confortaa;
+    src: url('./fonts/Comfortaa-VariableFont:wght.ttf');
+}@font-face {
     font-family: KGSorryNotSorry;
     src: url('./fonts/KGSorryNotSorry.ttf');
 }@font-face {
@@ -23,7 +26,7 @@ Text Domain: MareCiaNautica
 }
 
 body{
-    font-family: Amblas, Calibri;
+    font-family: Amblas, Confortaa, Calibri;
     width: 100%;
     overflow-x: hidden;
 }
@@ -137,7 +140,6 @@ nav.menu{
     margin:120px 0 100px 0;
     text-align: center;
     
-    @media only screen and (min-width: 600px) {font-size: 3.75rem;}
     letter-spacing: 5px;
     display: flex;
     justify-content: center;
@@ -154,7 +156,8 @@ nav.menu{
         animation-fill-mode:both;
         animation-timing-function: ease-in-out;
         >h1{
-            font-size: 3.75rem;
+            font-size: 2.75rem;
+            @media only screen and (min-width: 600px) {font-size: 3.75rem;}
             margin: 0;
         }
     }
@@ -162,6 +165,10 @@ nav.menu{
 @keyframes title-open {
     0% {width: 0%;}
     100%{width: 600px;}
+}
+
+article{
+    word-break: break-word;
 }
 
 footer{

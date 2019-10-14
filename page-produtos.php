@@ -16,7 +16,7 @@
             </ul>
         </div>
     </div>
-    <div class="produtos gcol-3">
+    <div class="produtos gcol-ss-2 gcol-s-3">
         <?php 
         if($_GET["tag"] == null){
             $catquery = new WP_Query( 'category_name=produtos&orderby=title&order=asc' );

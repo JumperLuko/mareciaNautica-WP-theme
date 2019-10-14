@@ -1,5 +1,10 @@
 .produtos-tags{
-    @media only screen and (min-width: 768px) {grid-column: 1/4;}
+    grid-row: 2/3;
+    @media only screen and (min-width: 768px) {
+        grid-column: 1/4;
+        grid-row: auto;
+    }
+    padding: 0 10px;
     display: flex;
     justify-content: center;
     color: #3e3e3e;
@@ -7,6 +12,7 @@
     a{
         text-decoration: inherit;
         color: inherit;
+        >h2{text-align: center;}
     }
     li{
         display: inherit;

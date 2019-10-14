@@ -95,6 +95,7 @@ form{
     >p.h1{ margin-bottom: 70px;}
     input[type="text"],input[type="email"],textarea{
         border: 4px #a1a6ab solid;
+        max-width: 100%;
     }input[type="text"],input[type="email"]{
         height: 40px;
     }
