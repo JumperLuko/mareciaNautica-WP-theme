@@ -18,8 +18,9 @@
 
         <meta name="description" content="Empresa especializada na fabricação de coletes salva-vidas. Possuímos produtos de alta qualidade.">
         <meta name="og:description" content="Empresa especializada na fabricação de coletes salva-vidas. Possuímos produtos de alta qualidade.">
+        <meta name="owner" content="Andréia Andrade, adm.marecia@gmail.com">
 		<meta name="designer" content="Jumper_Luko, jumper.luko@gmail.com">
-        <meta name="generator" content="VSCode">
+        <meta name="generator" content="VSCode, Sass compiler">
         <meta property="og:image" content="<?php echo get_parent_theme_file_uri( 'img/og-image.png' );?>">
 		<meta property="og:image:type" content="image/png">
 		<meta property="og:image:width" content="800">

@@ -1,5 +1,5 @@
     <?php wp_footer(); ?>
-    <footer class="gcol-b-2">
+    <footer class="gcol-b-2" title="Web Design feito por Thiago Augusto (jumperluko.com)">
         <a class="link1" href="/" >Página Inicial</a>
         <a class="contact1" href="/redes-sociais/" >Redes Sociais</a>
 
