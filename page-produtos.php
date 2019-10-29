@@ -19,10 +19,10 @@
     <div class="produtos gcol-ss-2 gcol-s-3">
         <?php 
         if($_GET["tag"] == null){
-            $catquery = new WP_Query( 'category_name=produtos&orderby=title&order=asc' );
+            $catquery = new WP_Query( 'category_name=produtos&orderby=title&order=asc&posts_per_page=-1' );
         }else{
             $tagSlug = $_GET["tag"];
-            $catquery = new WP_Query( "category_name=produtos&orderby=title&order=asc&tag=$tagSlug" );
+            $catquery = new WP_Query( "category_name=produtos&orderby=title&order=asc&posts_per_page=-1&tag=$tagSlug" );
         }
             while($catquery->have_posts()) : $catquery->the_post();
                 ?>
