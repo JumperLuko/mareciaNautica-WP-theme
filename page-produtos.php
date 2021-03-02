@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_parent_theme_file_uri( 'css/produtos.min.css' );?>">
 <header class="title-page"><div><h1><?php the_title(); ?></h1></div></header>
 <main class="gcol-b-12">
-    <div class="produtos-tags">
+    <div class="produtos-tags" id="produtos">
         <div>
             <a href="."><h2>Todos Produtos</h2></a>
             <ul>
@@ -10,7 +10,7 @@
                 $tags = get_tags();
                 if ( $tags ) :
                     foreach ( $tags as $tag ) : ?>
-                        <li><a href="?tag=<?php echo $tag->slug ?>" title="<?php echo esc_attr( $tag->name ); ?>"><?php echo esc_html( $tag->name ); ?></a></li>
+                        <li><a href="?tag=<?php echo $tag->slug ?>#produtos" title="<?php echo esc_attr( $tag->name ); ?>"><?php echo esc_html( $tag->name ); ?></a></li>
                     <?php endforeach; ?>
                 <?php endif; ?>
             </ul>
