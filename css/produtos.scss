@@ -1,6 +1,6 @@
 .produtos-tags{
     grid-row: 2/3;
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 1200px) {
         grid-column: 1/4;
         grid-row: auto;
     }
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     color: #3e3e3e;
-    >div>a>h2{font-size: 2rem}
+    >div>a>h2{font-size: 1.5rem}
     a{
         text-decoration: inherit;
         color: inherit;
@@ -16,19 +16,20 @@
     }
     li{
         display: inherit;
-        font-size: 1.25rem;
+        font-size: 1rem;
         margin-bottom: 1.5rem;
     }
 }
 .produtos{
-    @media only screen and (min-width: 768px) {grid-column: 4/ 13;}
+    @media only screen and (min-width: 1200px) {grid-column: 4/ 13;}
     .produto{
         text-decoration: none;
         color: #1f1f1f;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 50px 0;
+        align-items: baseline;
+        padding: 50px 35px;
         h2{
             width: 100%;
             text-align: center;

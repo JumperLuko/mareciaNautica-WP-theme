@@ -29,6 +29,7 @@ body{
     font-family: Amblas, Confortaa, Calibri;
     width: 100%;
     overflow-x: hidden;
+    background-color: #ffffff;
 }
 
 img{max-width: 100%;}
@@ -45,6 +46,9 @@ nav.menu{
     background-color: #e9f2f1;
     font-family: KGSorryNotSorryChub;
     font-size: 1.56rem;
+    @media only screen and (max-width: 959px) {
+        row-gap: 10px;
+    }
     >a{
         display: flex;
         justify-content:center;
@@ -69,12 +73,12 @@ nav.menu{
     @media only screen and (min-width: 960px) {
         >.option1{
             grid-column-start: 3;
-            grid-column-end: 5;
+            grid-column-end: 6;
         }>.option2{
             grid-column-start: 5;
             grid-column-end: 9;
         }>.option3{
-            grid-column-start: 9;
+            grid-column-start: 8;
             grid-column-end: 11;
         }
 
@@ -105,6 +109,10 @@ nav.menu{
     }
 
     >.logo{
+        @media only screen and (min-width: 350px) {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
         @media only screen and (min-width: 960px) {
             padding: 4%;
             grid-row-start: 2;
@@ -157,7 +165,7 @@ nav.menu{
         animation-timing-function: ease-in-out;
         >h1{
             font-size: 2.75rem;
-            @media only screen and (min-width: 600px) {font-size: 3.75rem;}
+            @media only screen and (min-width: 1200px) {font-size: 3.75rem;}
             margin: 0;
         }
     }

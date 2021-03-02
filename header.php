@@ -49,8 +49,7 @@
     </head>
 
     <body>
-        <nav class="menu col-12 gcol-m-12">
-            <a href="/vagas-emprego/" class="option1">VAGAS DE EMPREGO</a>
+        <nav class="menu col-12 gcol-ss-2 gcol-m-12">
             <a href="/redes-sociais/" class="option2">REDES SOCIAIS</a>
             <a href="/quem-somos/" class="option3">QUEM SOMOS</a>
 

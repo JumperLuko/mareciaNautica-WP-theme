@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_parent_theme_file_uri( 'css/produtos.min.css' );?>">
 <header class="title-page"><div><h1><?php the_title(); ?></h1></div></header>
-<main class="gcol-12">
+<main class="gcol-b-12">
     <div class="produtos-tags">
         <div>
             <a href="."><h2>Todos Produtos</h2></a>
