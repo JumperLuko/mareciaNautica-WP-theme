@@ -1,5 +1,6 @@
 article{
     .title-page{margin:120px 0 200px 0;}
+    color: #3e3e3e;
     >a{
     display: flex;
     justify-content: center;
@@ -71,7 +72,7 @@ article{
     @media only screen and (max-width: 959px) {> a > figure{width: 100%;}}
 
     a:link,a:visited{
-        color: #000;
+        color: #3e3e3e;
     }
 
     .divisor{

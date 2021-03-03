@@ -164,12 +164,6 @@ nav.menu > .option1, nav.menu > .option2, nav.menu > .option3 {
   }
 }
 
-@media only screen and (max-width: 959px) {
-  nav.menu .big-option1 {
-    padding-top: 30px;
-  }
-}
-
 @media only screen and (min-width: 350px) {
   nav.menu > .logo {
     -ms-grid-column: 1;

@@ -104,9 +104,6 @@ nav.menu{
             grid-column-end: 12;
         }
     }
-    @media only screen and (max-width: 959px) {
-        .big-option1{padding-top:30px;}
-    }
 
     >.logo{
         @media only screen and (min-width: 350px) {
