@@ -55,6 +55,14 @@ article > a.whatsapp > div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+article > a.whatsapp > div > div {
+  padding: 10px 0;
 }
 
 @media only screen and (max-width: 959px) {
@@ -74,30 +82,19 @@ article > a.whatsapp img {
 
 article > a.telefone {
   font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   text-align: center;
 }
 
 @media only screen and (min-width: 1200px) {
   article > a.telefone {
     font-size: 2.10rem;
-  }
-}
-
-@media only screen and (max-width: 959px) {
-  article > a.telefone {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-}
-
-@media only screen and (min-width: 960px) {
-  article > a.telefone {
-    padding-left: 145px;
   }
 }
 
@@ -106,8 +103,19 @@ article > a.telefone > figure > img {
   height: 65px;
 }
 
+article > a.telefone > div {
+  padding: 10px 0;
+}
+
 article > a.email {
   font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
 }
 
@@ -117,15 +125,13 @@ article > a.email {
   }
 }
 
-@media only screen and (min-width: 960px) {
-  article > a.email {
-    padding-right: 145px;
-  }
-}
-
 article > a.email > figure > img {
   width: 65px;
   height: 65px;
+}
+
+article > a.email > div {
+  padding: 10px 0;
 }
 
 article a.mapa {
