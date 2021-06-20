@@ -1,5 +1,6 @@
 article{
     .title-page{margin:120px 0 200px 0;}
+    color: #3e3e3e;
     >a{
     display: flex;
     justify-content: center;
@@ -18,17 +19,18 @@ article{
     }
 
     >a.whatsapp{
-        font-size: 2.81rem;
+        font-size: 1.5rem;
+        @media only screen and (min-width: 1200px) {font-size: 2.10rem;}
         >div{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            @media only screen and (max-width: 959px) {
-                >div{
-                    width: 100%;
-                }
+            flex-direction: column;
+            >div{
+                padding:10px 0;
+                @media only screen and (max-width: 959px) {width: 100%;}
             }
-        }
+    }
         img{
             width: 300px;
             height: 300px;
@@ -39,29 +41,32 @@ article{
         }
     }
     >a.telefone{
-        font-size: 2.10rem;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column-reverse;
         text-align: center;
-        @media only screen and (max-width: 959px) {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-        @media only screen and (min-width: 960px) {padding-left: 145px;}
+        @media only screen and (min-width: 1200px) {font-size: 2.10rem;}
         >figure>img{
             width: 65px;
             height: 65px;
         }
+        >div{padding:10px 0;}
     }
     >a.email{
-        font-size: 2.10rem;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        @media only screen and (min-width: 1200px) {font-size: 2.10rem;}
         text-align: center;
-        @media only screen and (min-width: 960px) {padding-right: 145px;}
         >figure>img{
             width: 65px;
             height: 65px;
         }
+        >div{padding:10px 0;}
     }
     a.mapa{
-        font-size: 1.50rem;
+        font-size: 1.25rem;
+        @media only screen and (min-width: 1200px) {font-size: 1.5rem;}
         figure{
             width: 100%;
             >img{height: 50px;}
@@ -71,16 +76,16 @@ article{
     @media only screen and (max-width: 959px) {> a > figure{width: 100%;}}
 
     a:link,a:visited{
-        color: #000;
+        color: #3e3e3e;
     }
 
     .divisor{
         width: 100%;
         height: 2px;
-        margin: 100px 0 100px 0;
+        margin: 250px 0;
         padding: 0 20%;
         >div{
-            background-color: #333;
+            background-color: #3333334f;
             width: 100%;
             height: 2px;
         }
@@ -89,7 +94,7 @@ article{
 
 form{
     padding: 0 15%;
-    font-size: 1.56rem;
+    font-size: 1.25rem;
     font-family: Amblas;
     >p{ margin: 50px 0;}
     >p.h1{ margin-bottom: 70px;}

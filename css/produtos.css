@@ -12,7 +12,7 @@
   color: #3e3e3e;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   .produtos-tags {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
@@ -22,7 +22,7 @@
 }
 
 .produtos-tags > div > a > h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .produtos-tags a {
@@ -36,11 +36,11 @@
 
 .produtos-tags li {
   display: inherit;
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   .produtos {
     -ms-grid-column: 4;
     -ms-grid-column-span: 9;
@@ -59,7 +59,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 50px 0;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 50px 35px;
 }
 
 .produtos .produto h2 {
