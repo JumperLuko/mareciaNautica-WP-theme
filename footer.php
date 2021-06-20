@@ -1,4 +1,5 @@
     <?php wp_footer(); ?>
+    <a href="https://api.whatsapp.com/send?phone=5547984790989&text=Ol%C3%A1,%20Estava%20visitando%20o%20site%20marecianautica.com.br.%20Est%C3%A1%20dispon%C3%ADvel?" class="whatsappFixo"><img src="https://www.marecianautica.com.br/wp-content/themes/MareCiaNautica/img/icon/whatsapp.svg"/></a>
     <footer class="gcol-b-2" title="Web Design feito por Thiago Augusto (jumperluko.com)">
         <a class="link1" href="/" >Página Inicial</a>
         <a class="contact1" href="/redes-sociais/" >Redes Sociais</a>
