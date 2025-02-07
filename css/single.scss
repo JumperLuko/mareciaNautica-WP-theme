@@ -1,20 +1,22 @@
 .title-post{
     color: #1f1f1f;
-    margin: 130px 0 30px 25%;
+    margin: 130px 0 30px 0;
+    text-align: center;
 }
 main{
     display: grid;
     padding-bottom: 40px;
-    @media only screen and (min-width: 768px) {grid-template-columns: 25% 75%;}
+    @media only screen and (min-width: 768px) {grid-template-columns: 10% 80% 10%;}
     .content{
         display: flex;
         flex-wrap: wrap;
         color: #414141;
         font-size: 0.93rem;
-        >[class*="robogallery-gallery"]{
+        >.robo-gallery-wrap{
+            width: 100% !important;
             @media only screen and (min-width: 960px) {width: 44.44% !important;}
             margin: 0 !important; 
-            >.rbs-imges-container{
+            /*>[class*="robogallery-gallery"]>.rbs-imges-container{
                 display: flex;
                 flex-wrap: wrap;
                 align-items: baseline;
@@ -36,7 +38,7 @@ main{
                         }
                     }
                 }
-            }
+            }*/
         }
         > .text{
             width: 44.44%;
@@ -58,7 +60,7 @@ main{
             > .descricao{text-align: center;}
             > .itens{
                 display: grid;
-                grid-template-columns: 30% 70%;
+                grid-template-columns: 20% 80%;
                 grid-row-gap: 0.9375rem;
                 grid-column-gap: 10px;
                 >div,>span{
@@ -70,11 +72,16 @@ main{
                     span{
                         width: 100%;
                         display: flex;
+                        align-items: center;
+                        width: 50%;
                     }
                     div{
-                        width: 20px;
-                        height: 20px;
+                        width: 50px;
+                        height: 50px;
                         margin: 0 4px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                     }
                 }
                 >div{font-weight: bold;}
