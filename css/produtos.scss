@@ -5,7 +5,8 @@
         grid-row: auto;
     }
     padding: 0 10px;
-    display: flex;
+    /*display: flex;*/
+    display: none;
     justify-content: center;
     color: #3e3e3e;
     >div>a>h2{font-size: 1.5rem}
@@ -21,7 +22,7 @@
     }
 }
 .produtos{
-    @media only screen and (min-width: 1200px) {grid-column: 4/ 13;}
+    @media only screen and (min-width: 1200px) {grid-column: 2/ 12;}
     .produto{
         text-decoration: none;
         color: #1f1f1f;

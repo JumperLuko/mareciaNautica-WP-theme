@@ -3,32 +3,23 @@
     margin-top: 60px;
   }
 }
-
 /* INSTAGRAM FEED */
 .wdi_feed_container {
   border: none !important;
 }
 
 .wdi_feed_wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 800px) {
   #wdi_feed_0 .wdi_feed_item {
-    width: 25% !important;
-    /*thumbnail_size*/
+    width: 25% !important; /*thumbnail_size*/
     margin: 0 2%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
-
 .wdi_photo_wrap_inner {
   border: none !important;
 }
