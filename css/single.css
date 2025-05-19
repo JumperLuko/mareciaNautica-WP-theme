@@ -18,6 +18,10 @@ main .content {
   flex-wrap: wrap;
   color: #414141;
   font-size: 0.93rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  word-spacing: 1px;
 }
 main .content > .robo-gallery-wrap {
   width: 100% !important;

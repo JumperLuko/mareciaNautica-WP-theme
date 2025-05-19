@@ -1,12 +1,9 @@
 .produtos-tags {
   grid-row: 2/3;
+  display: none;
   padding: 0 10px;
-<<<<<<< HEAD
   /*display: flex;*/
   display: none;
-=======
-  display: flex;
->>>>>>> origin/master
   justify-content: center;
   color: #3e3e3e;
 }
@@ -14,6 +11,7 @@
   .produtos-tags {
     grid-column: 1/4;
     grid-row: auto;
+    display: block;
   }
 }
 .produtos-tags > div > a > h2 {
@@ -34,11 +32,7 @@
 
 @media only screen and (min-width: 1200px) {
   .produtos {
-<<<<<<< HEAD
-    grid-column: 2/12;
-=======
     grid-column: 4/13;
->>>>>>> origin/master
   }
 }
 .produtos .produto {

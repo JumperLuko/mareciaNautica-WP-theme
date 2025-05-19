@@ -1,8 +1,10 @@
 .produtos-tags{
     grid-row: 2/3;
+    display: none;
     @media only screen and (min-width: 1200px) {
         grid-column: 1/4;
         grid-row: auto;
+        display: block;
     }
     padding: 0 10px;
     /*display: flex;*/
@@ -22,7 +24,7 @@
     }
 }
 .produtos{
-    @media only screen and (min-width: 1200px) {grid-column: 2/ 12;}
+    @media only screen and (min-width: 1200px) {grid-column: 4/ 13;}
     .produto{
         text-decoration: none;
         color: #1f1f1f;
