@@ -218,6 +218,9 @@ nav.menu > .logo > img {
 article {
   word-break: break-word;
 }
+article p {
+  font-family: Inter, Amblas, Confortaa, Calibri;
+}
 article .title-page {
   word-break: normal;
 }
