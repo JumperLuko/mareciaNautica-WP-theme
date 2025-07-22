@@ -8,6 +8,84 @@ License: No licence, intellectual property does not exist.
 Text Domain: MareCiaNautica
 */
 
+.news-cycle-regular {
+  font-family: "News Cycle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.news-cycle-bold {
+  font-family: "News Cycle", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.palanquin-thin {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.palanquin-extralight {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.palanquin-light {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.palanquin-regular {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.palanquin-medium {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.palanquin-semibold {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.palanquin-bold {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.palanquin-dark-regular {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.palanquin-dark-medium {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.palanquin-dark-semibold {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.palanquin-dark-bold {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 @font-face {
     font-family: Amblas;
     src: url('./fonts/Amblas-ptbr.ttf');
@@ -26,7 +104,7 @@ Text Domain: MareCiaNautica
 }
 
 body{
-    font-family: Amblas, Confortaa, Calibri;
+    font-family: "News Cycle", Inter, Amblas, Confortaa, Calibri;
     width: 100%;
     overflow-x: hidden;
     background-color: #ffffff;
@@ -40,12 +118,15 @@ a:active{color: #2c4f76;}
 nav.menu{
     display: grid;
     @media only screen and (min-width: 960px) {
-        grid-template-rows: 40px 65px 65px;
+        // grid-template-rows: 40px 65px 65px;
+        display: flex;
+        justify-content: space-around;
         /* height: 260px; */
     }
     background-color: #e9f2f1;
-    font-family: KGSorryNotSorryChub;
-    font-size: 1.30rem;
+    font-family: KGSorryNotSorryChub, Inter;
+    /* font-weight: 600; */
+    font-size: 1.20rem;
     @media only screen and (max-width: 959px) {
         row-gap: 10px;
     }
@@ -55,7 +136,7 @@ nav.menu{
         align-content: center;
         align-items: center;
         text-align: center;
-        color: #2d2d2d;
+        color: #3c3c3c;
         text-decoration: inherit;
         @media only screen and (max-width: 959px) {
             padding: 10px 0;
@@ -67,8 +148,8 @@ nav.menu{
             grid-row-start: 1;
             grid-row-end: 2;
         }
-        font-family: KGSorryNotSorry;
-        font-size:1.10rem;
+        // font-family: KGSorryNotSorry;
+        // font-size:1.10rem;
     }
     @media only screen and (min-width: 960px) {
         >.option1{
@@ -111,7 +192,7 @@ nav.menu{
             grid-column-end: 3;
         }
         @media only screen and (min-width: 960px) {
-            padding: 3%;
+            padding: 24px;
             grid-row-start: 2;
             grid-row-end: 4;
             grid-column-start: 4;
@@ -123,7 +204,7 @@ nav.menu{
         }
         @media only screen and (min-width: 960px) {
             >img{
-                max-width: 300px;
+                max-width: 200px;
                 max-height: 100%;
             }
         }
@@ -139,6 +220,7 @@ nav.menu{
     background-position-x: 0%;
     animation: menu-border-animation 3s;
     animation-fill-mode:both;
+    background-repeat: repeat-x;
 }
 @keyframes menu-border-animation {
     0% {background-position-x: 0%;}

@@ -3,12 +3,12 @@
 
 <svg
    width="3700"
-   height="25"
+   height="50"
    version="1.1"
-   viewBox="0 0 978.96 6.6145062"
+   viewBox="0 0 978.96 13.229012"
    id="svg1"
    sodipodi:docname="menu-border.svg"
-   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -27,11 +27,11 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.2550973"
-     inkscape:cx="1787.9495"
-     inkscape:cy="38.135827"
-     inkscape:window-width="1536"
-     inkscape:window-height="835"
+     inkscape:zoom="0.39864865"
+     inkscape:cx="832.81356"
+     inkscape:cy="84.033898"
+     inkscape:window-width="1600"
+     inkscape:window-height="863"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -48,7 +48,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(1,0,0,0.33368462,0,-92.25797)"
+     transform="matrix(1,0,0,0.62424518,0,-172.19496)"
      id="g1"
      style="stroke-width:1.26568">
     <path

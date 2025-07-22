@@ -8,6 +8,84 @@ Version: 1.0
 License: No licence, intellectual property does not exist.
 Text Domain: MareCiaNautica
 */
+.news-cycle-regular {
+  font-family: "News Cycle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.news-cycle-bold {
+  font-family: "News Cycle", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.palanquin-thin {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.palanquin-extralight {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.palanquin-light {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.palanquin-regular {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.palanquin-medium {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.palanquin-semibold {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.palanquin-bold {
+  font-family: "Palanquin", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.palanquin-dark-regular {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.palanquin-dark-medium {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.palanquin-dark-semibold {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.palanquin-dark-bold {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 @font-face {
   font-family: Amblas;
   src: url("./fonts/Amblas-ptbr.ttf");
@@ -29,7 +107,7 @@ Text Domain: MareCiaNautica
   src: url("./fonts/Philosopher-Bold.ttf");
 }
 body {
-  font-family: Amblas, Confortaa, Calibri;
+  font-family: "News Cycle", Inter, Amblas, Confortaa, Calibri;
   width: 100%;
   overflow-x: hidden;
   background-color: #ffffff;
@@ -54,12 +132,14 @@ a:active {
 nav.menu {
   display: grid;
   background-color: #e9f2f1;
-  font-family: KGSorryNotSorryChub;
-  font-size: 1.3rem;
+  font-family: KGSorryNotSorryChub, Inter;
+  /* font-weight: 600; */
+  font-size: 1.2rem;
 }
 @media only screen and (min-width: 960px) {
   nav.menu {
-    grid-template-rows: 40px 65px 65px;
+    display: flex;
+    justify-content: space-around;
     /* height: 260px; */
   }
 }
@@ -74,17 +154,13 @@ nav.menu > a {
   align-content: center;
   align-items: center;
   text-align: center;
-  color: #2d2d2d;
+  color: #3c3c3c;
   text-decoration: inherit;
 }
 @media only screen and (max-width: 959px) {
   nav.menu > a {
     padding: 10px 0;
   }
-}
-nav.menu > .option1, nav.menu > .option2, nav.menu > .option3 {
-  font-family: KGSorryNotSorry;
-  font-size: 1.1rem;
 }
 @media only screen and (min-width: 960px) {
   nav.menu > .option1, nav.menu > .option2, nav.menu > .option3 {
@@ -138,7 +214,7 @@ nav.menu > .option1, nav.menu > .option2, nav.menu > .option3 {
 }
 @media only screen and (min-width: 960px) {
   nav.menu > .logo {
-    padding: 3%;
+    padding: 24px;
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 4;
@@ -151,7 +227,7 @@ nav.menu > .logo > img {
 }
 @media only screen and (min-width: 960px) {
   nav.menu > .logo > img {
-    max-width: 300px;
+    max-width: 200px;
     max-height: 100%;
   }
 }
@@ -166,6 +242,7 @@ nav.menu > .logo > img {
   background-position-x: 0%;
   animation: menu-border-animation 3s;
   animation-fill-mode: both;
+  background-repeat: repeat-x;
 }
 
 @keyframes menu-border-animation {

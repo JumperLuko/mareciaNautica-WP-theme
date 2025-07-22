@@ -49,18 +49,18 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Palanquin+Dark:wght@400;500;600;700&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <nav class="menu col-12 gcol-ss-2 gcol-m-12">
-            <a href="/redes-sociais/" class="option1">REDES SOCIAIS</a>
-            <a href="/quem-somos/" class="option3">QUEM SOMOS</a>
-
-            <a href="/qualidade/" class="big-option1">QUALIDADE</a>
-            <a href="/representacao/" class="big-option2">REPRESENTAÇÃO</a>
-            <a href="/produtos/" class="big-option3">PRODUTOS</a>
-            <a href="/contato/" class="big-option4">CONTATO</a>  
-            
             <a href="/" class="logo"><img src="<?php echo get_parent_theme_file_uri( 'img/marecia-nautica.svg' );?>"/></a>
+
+            <a href="/produtos/" class="big-option3">PRODUTOS</a>
+            <a href="/qualidade/" class="big-option1">QUALIDADE</a>
+            <a href="/redes-sociais/" class="option1">REDES SOCIAIS</a>
+            <!-- <a href="/representacao/" class="big-option2">REPRESENTAÇÃO</a> -->
+            <a href="/quem-somos/" class="option3">QUEM SOMOS</a>
+            <a href="/contato/" class="big-option4">CONTATO</a> 
         </nav>
         <div class="menu-border"></div>
