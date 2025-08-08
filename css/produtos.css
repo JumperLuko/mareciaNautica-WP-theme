@@ -57,3 +57,7 @@
   height: auto;
   max-height: 300px;
 }
+
+main {
+  padding-bottom: 128px;
+}
