@@ -381,3 +381,7 @@ footer a:visited, footer a:link, footer a:active {
 .metaslider {
   overflow: hidden;
 }
+
+.mfp-figure::after {
+  background: #fff !important;
+}

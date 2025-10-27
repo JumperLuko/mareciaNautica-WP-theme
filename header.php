@@ -51,6 +51,12 @@
 		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Palanquin+Dark:wght@400;500;600;700&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style type="text/tailwindcss">
+        @layer theme, base, components, utilities;
+
+        @import "tailwindcss/theme.css" layer(theme);
+        @import "tailwindcss/utilities.css" layer(utilities);
+        </style>
     </head>
 
     <body>

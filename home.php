@@ -3,15 +3,15 @@
 <?php echo do_shortcode("[metaslider title='Home Slideshow']"); ?>
 <?php get_sidebar(); ?>
 
-<span><div class="compreja" style="margin: 96px 48px 192px 48px;">
+<span><!--<div class="compreja" style="margin: 96px 48px 192px 48px;">
   <h1 class="centerText" style="padding-bottom: 24px;">Quer comprar um produto agora?</h1>
   <p class="centerText">Você pode comprar na <bold>loja online</bold> pelo mercadolivre, ou na <bold>loja física</bold> perguntando no whatsapp pela mais próxima na sua localização!</p>
   <p class="centerText">Estamos começando a oferecer em novas plataformas e novos modelos, aguarde por novidades!</p>
   <div style="width: 100%;/*! flex-direction: column; *//*! margin: 48px; */padding-top: 48px;" class="flex center wrap">
-    <a href="https://produto.mercadolivre.com.br/MLB-5541018052-colete-classe-3-salva-vidas-homologado-marinha-eg-g-m-p-_JM?attributes=COLOR_SECONDARY_COLOR%3ATGFyYW5qYQ%3D%3D%2CLIFE_JACKET_SIZE%3ARw%3D%3D&quantity=1&picker=true" style="background: #007FD9;text-decoration: none;border-radius: 15px;margin: 12px 24px;color: white;min-width: 350px;/*! height: 56px; */font-size: 17px;padding: 18px;" class="flex center centerText palanquin-dark-bold">Comprar no mercadolivre!</a>
+    <a href="https://lista.mercadolivre.com.br/_CustId_400654936" style="background: #007FD9;text-decoration: none;border-radius: 15px;margin: 12px 24px;color: white;min-width: 350px;/*! height: 56px; */font-size: 17px;padding: 18px;" class="flex center centerText palanquin-dark-bold">Comprar no mercadolivre!</a>
     <a style="background: #DBF0FF;text-decoration: none;border-radius: 15px;margin: 12px 24px;color: #007FD9;min-width: 350px;height: 67px;font-size: 16px;padding: 18px;" class="flex center centerText palanquin-dark-regular" href="https://api.whatsapp.com/send?phone=5547984170451&amp;text=Tudo bem? Estava no site marecianautica.com.br procurando por uma loja física mais próxima da minha localização, consegue me ajudar?">Perguntar no Whatsapp por loja</a>
   </div>
-</div></span>
+</div>--></span>
 
 <a href="https://www.instagram.com/marecianautica/" class="ainherit centerText" target="_BLANK" title="@marecianautica"><h1 style="margin-top: 150px;">Siga-nos no Instagram</h1></a>
 <div style="display: flex;justify-content: space-around; margin: 50px auto 150px auto;">

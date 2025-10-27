@@ -328,3 +328,7 @@ footer{
 .metaslider{
     overflow: hidden;
 }
+
+.mfp-figure::after{
+    background: #fff !important;
+}
